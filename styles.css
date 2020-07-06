@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* navbar */
+
 .nav-section {
     display: flex;
     justify-content: space-around;
