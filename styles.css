@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* navbar */
 
 .navbar{
@@ -93,7 +97,7 @@ a:link{
 /* section 1 */
 
 .intro{
-    height: 600px;
+    height: 650px;
     background-color: #eeecda;
     position: relative;
 }
@@ -108,7 +112,7 @@ a:link{
     display: flex;
     text-align: center;
     margin-left: 40%;
-    margin-top: 20%;
+    margin-top: 23%;
     position: absolute;
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: uppercase;
@@ -126,7 +130,7 @@ a:link{
     display: flex;
     font-size: 2rem;
     font-family: 'Open Sans Condensed', sans-serif;
-    margin-top: 15%;
+    margin-top: 17%;
     margin-left: 20%;
     position: absolute;
     letter-spacing: 7px;
