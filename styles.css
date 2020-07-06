@@ -6,13 +6,19 @@
 
 /* navbar */
 
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
 .nav-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 57px;
     background-color: #5d4954;
-    position: sticky;
 }
 
 .logo{
@@ -180,8 +186,17 @@ a:link{
     background-color: #eeecda;
     text-align: center;
     color: #5d4954;
-    height: 60px;
+    height: 70px;
     align-items: center;
+}
+.icon{
+    font-size: 1.5rem;
+    /* display: flexbox; */
+    margin: 9px 5px;
+}
+
+.icon:hover{
+    cursor: pointer;
 }
 
 /* animation */
