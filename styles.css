@@ -127,13 +127,36 @@ a:link{
 
 .about{
     background-color: #eeecda;
-    height: 500px;
+    height: 600px;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    /* margin-left: 20%; */
 }
 
+
 .dan-image{
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
+    height: 500px;
+    width: 350px;
+    /* margin-right: 180px; */
+    /* margin-left: 60%; */
+    margin-top: 10px;
+    position: absolute;
+    border: 5px solid #5d4954;
+}
+
+.author-image {
+    height: 500px;
+    width: 350px;
+    margin-right: 180px;
+}
+
+.about-author{
+    height: 500px;
+    /* position: absolute; */
+    width: 600px;
+    margin-left: 20%;
+    margin-top: 60px;
 }
 
 /* animation */
