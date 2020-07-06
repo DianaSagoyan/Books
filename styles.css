@@ -108,6 +108,14 @@ a:link{
     text-transform: uppercase;
 }
 
+.possible{
+    /* font-weight: bold; */
+    padding-left: 4px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
 .intro-paragraph{
     display: flex;
     font-size: 2rem;
@@ -130,8 +138,14 @@ a:link{
     height: 600px;
     display: flex;
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     /* margin-left: 20%; */
+}
+
+.about-heading{
+    font-size: 30px;
+    padding-bottom: 40px;
+    color: #5d4954;
 }
 
 
@@ -157,6 +171,17 @@ a:link{
     width: 600px;
     margin-left: 20%;
     margin-top: 60px;
+    padding-right: 80px;
+    color: #3b6978;
+    text-align: center;
+}
+
+.footer{
+    background-color: #eeecda;
+    text-align: center;
+    color: #5d4954;
+    height: 60px;
+    align-items: center;
 }
 
 /* animation */
@@ -171,13 +196,16 @@ a:link{
     position: absolute;
     width: 60px;
     height: 60px;
-    background-color: rgba(255, 255, 255, 0.7);
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    background-color: transparent;
+    border: 4px solid rgb(226, 226, 226);
+
 }
 
-.animation div:nth-child(2n + 0){
+/* .animation div:nth-child(2n + 0){
     background-color: transparent;
     border: 4px solid #5d4954;
-}
+} */
 
 .animation div:nth-child(1){
     top: 20%;
