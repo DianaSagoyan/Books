@@ -98,13 +98,14 @@ a:link{
     color: #5d4954;
     padding: 20px;
     border: 2px solid black;
-    border-color: black;
+    border-color: white;
     display: flex;
     text-align: center;
     margin-left: 40%;
     margin-top: 20%;
     position: absolute;
     font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
 }
 
 .intro-paragraph{
@@ -117,6 +118,23 @@ a:link{
     letter-spacing: 7px;
 }
 
+/* section2 */
+
+.color-seperator{
+    height: 100px;
+    background-color: #5d4954;
+}
+
+.about{
+    background-color: #eeecda;
+    height: 500px;
+}
+
+.dan-image{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
 
 /* animation */
 
