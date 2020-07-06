@@ -107,6 +107,16 @@ a:link{
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
+.intro-paragraph{
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 15%;
+    margin-left: 20%;
+    position: absolute;
+    letter-spacing: 7px;
+}
+
 
 /* animation */
 
@@ -142,8 +152,10 @@ a:link{
 }
 
 .animation div:nth-child(3){
-    top: 40%;
+    top: 10%;
     left: 30%;
+    width: 35px;
+    height: 35px;
 }
 
 .animation div:nth-child(4){
@@ -179,7 +191,7 @@ a:link{
 }
 
 .animation div:nth-child(9){
-    top: 70%;
+    top: 75%;
     left: 40%;
 }
 
