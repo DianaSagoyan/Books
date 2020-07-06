@@ -4,18 +4,20 @@
     box-sizing: border-box;
 }
 
-nav {
+.nav-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 57px;
     background-color: #5d4954;
+    position: sticky;
 }
 
 .logo{
     color: rgb(226, 226, 226);
     text-transform: uppercase;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .nav-links{
@@ -48,4 +50,32 @@ a:link{
 
 .burger{
     display: none;
+}
+
+@media screen and (max-width: 750px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 500px;
+        background-color: #5d4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+
+    .nav-item{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
 }
