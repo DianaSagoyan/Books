@@ -8,7 +8,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* min-height: 8vh; */
+    min-height: 57px;
     background-color: #5d4954;
 }
 
@@ -16,4 +16,36 @@ nav {
     color: rgb(226, 226, 226);
     text-transform: uppercase;
     font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.nav-item{
+    list-style: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: rgb(226, 226, 226);
+    margin: 5px;
+}
+
+.burger{
+    display: none;
 }
