@@ -18,8 +18,10 @@
 .logo{
     color: rgb(226, 226, 226);
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 25px;
+    letter-spacing: 3px;
     cursor: pointer;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .nav-links{
@@ -87,8 +89,20 @@ a:link{
 .intro{
     height: 600px;
     background-color: #eeecda;
+    position: relative;
 }
 
 .main-heading{
-    
+    font-size: 3rem;
+    letter-spacing: 7px;
+    color: #5d4954;
+    padding: 20px;
+    border: 2px solid black;
+    border-color: black;
+    display: flex;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 20%;
+    position: absolute;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
