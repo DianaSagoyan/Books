@@ -21,7 +21,7 @@
                     <li class = "nav-item"><a href="#">Home</a></li>
                     <li class = "nav-item"><a href="#about">About</a></li>
                     <li class = "nav-item"><a href="./books.html">Books</a></li>
-                    <li class = "nav-item"><a href="">Info</a></li>
+                    <li class = "nav-item"><a href="./info.html">Info</a></li>
                 </ul>
                 <section class = "burger">
                     <div class="line1"></div>
@@ -30,7 +30,49 @@
                 </section>
             </nav>
         </section>
-    </header>
-    
+    </header>  
+
+    <main class="form-wrapper">
+        <section class="add-info">
+            <h2>Add Info</h2>
+            <form class="info-form">
+                <label class="input-label">
+                    Name
+                    <input type="text">
+                </label>
+                <label class="input-label">
+                    Surname
+                    <input type="text">
+                </label>
+                <label class="input-label">
+                    Email
+                <input type="email">
+                </label>
+                <button class="submit-button" type="submit">Submit</button>
+            </form>
+        </section>
+
+        <div class="form-divider"></div>
+
+        <section class="book-pick">
+            <h2>Pick a book</h2>
+            <form class="book-form">
+                <label class="input-label">Books
+                <select name="book">
+                    <option value="angels">ANgels and Demons</option>
+                    <option value="da-vinci">The Da Vinci Code</option>
+                    <option value="origin">origin</option>
+                </select>
+            </label>
+            <label class="input-label">
+                Add thoughts
+                <textarea name="thoughtd" cols="30" rows="10"></textarea>
+            </label>
+            <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
+
+
