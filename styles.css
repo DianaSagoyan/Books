@@ -66,33 +66,7 @@ a:link{
     display: none;
 }
 
-@media screen and (max-width: 750px){
-    body{
-        overflow-x: hidden;
-    }
 
-    .nav-links{
-        position: absolute;
-        right: 0px;
-        height: 500px;
-        background-color: #5d4954;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-    }
-
-
-    .nav-item{
-        opacity: 0;
-    }
-
-    .burger{
-        display: block;
-        cursor: pointer;
-    }
-}
 
 /* section 1 */
 
@@ -291,4 +265,62 @@ a:link{
     top: 20%;
     left: 80%;
     transform: rotate(35deg);
+}
+
+@media screen and (max-width: 750px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 500px;
+        background-color: #5d4954;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+
+    .nav-item{
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .main-heading{
+        margin: 4 0%;
+    }   
+}
+
+
+@media screen and (max-width: 1192px){
+    /* .main-heading{
+        margin: 30%;
+    } */
+
+   
+
+    .intro{
+        display: grid;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        /* gap: 1px 1px; */
+        grid-template-areas: "Name Name Name Name" ". Head Head ." ". . . .";
+    }
+
+    .intro-paragraph { grid-area: Name; }
+
+    .main-heading { grid-area: Head; }
+
+    .intro-paragraph{
+        text-align: center;
+    }
 }
