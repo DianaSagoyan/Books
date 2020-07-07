@@ -309,7 +309,6 @@ a:link{
 
     .intro{
         display: grid;
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         /* gap: 1px 1px; */
@@ -321,6 +320,6 @@ a:link{
     .main-heading { grid-area: Head; }
 
     .intro-paragraph{
-        text-align: center;
+        margin-top: 20%;
     }
 }
