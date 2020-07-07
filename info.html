@@ -32,10 +32,24 @@
         </section>
     </header>  
 
+    <div class = "animation">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
     <main class="form-wrapper">
         <section class="add-info">
-            <h2>Add Info</h2>
+            
             <form class="info-form">
+                <h2 class="form-heading">Add Info</h2>
                 <label class="input-label">
                     Name
                     <input type="text">
@@ -55,23 +69,30 @@
         <div class="form-divider"></div>
 
         <section class="book-pick">
-            <h2>Pick a book</h2>
+            <h2 class="form-heading">Pick a book</h2>
             <form class="book-form">
                 <label class="input-label">Books
                 <select name="book">
-                    <option value="angels">Angels and Demons</option>
-                    <option value="da-vinci">The Da Vinci Code</option>
-                    <option value="origin">Origin</option>
+                    <option class="option-value" value="angels">Angels and Demons</option>
+                    <option class="option-value" value="da-vinci">The Da Vinci Code</option>
+                    <option class="option-value" value="origin">Origin</option>
                 </select>
             </label>
             <label class="input-label">
                 Add thoughts
                 <textarea name="thoughtd" cols="30" rows="10"></textarea>
             </label>
-            <button type="submit">Submit</button>
+            <button class="submit-button" type="submit">Submit</button>
             </form>
         </section>
     </main>
+
+    <footer class = "footer">
+        <i class="icon social-icon fab fa-instagram"></i>
+        <i class="icon social-icon fab fa-facebook-f"></i>
+        <i class="icon social-icon fab fa-twitter"></i>
+        <i class="icon social-icon fas fa-envelope"></i>
+        </footer>
 </body>
 </html>
 
