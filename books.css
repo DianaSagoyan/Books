@@ -30,6 +30,7 @@ body{
 
 .book-item h3{
     margin: 15px;
+    opacity: 0.5;
 }
 
 .book-item p{
@@ -49,12 +50,15 @@ body{
 .book-item:hover{
     cursor: pointer;
     transform: translate(0,-5px);
-    
     /* box-shadow: 5px 10px 18px #888888; */
     /* transform: translate(-15%); */
 }
 
 .book-item:hover .book-image{
+    opacity: 1;
+}
+
+.book-item:hover h3{
     opacity: 1;
 }
 
