@@ -11,25 +11,67 @@ body{
 }
 
 .book-list{
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 7%;
+    margin-left: 5%;
     position: absolute;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
+    display: flex;
+}
+
+.book-item{
+    display: flex;
+    text-align: center;
+    margin: 15px;
+    border: 3px solid #5d4954;
+    box-shadow: 5px 10px 18px #888888;  
+    /* text-align: center; */
+}
+
+.book-item h3{
+    margin: 15px;
+}
+
+.book-item p{
+    padding: 7px 20px;
+    overflow: hidden;
 }
 
 .book-image{
     width: 200px;
     height: 350px;
-    margin: 10px 20px;
+    margin: 10px 0 10px 20px;
+    border: 1px solid #5d4954;
+    opacity: 0.5;
+    /* display: flex; */
+}
+
+.book-item:hover{
+    cursor: pointer;
+    transform: translate(0,-5px);
+    /* box-shadow: 5px 10px 18px #888888; */
+    /* transform: translate(-15%); */
+}
+
+.book-image:hover{
+    /* transform: translate(30%); */
+    transition: ease-out;
+    box-shadow: 1px 1px #8888;
+    transition: transform .3s;
+    opacity: 1;
+}
+
+.book-description{
+    width: 200px;
 }
 
 /* navbar */
 
 .navbar{
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 .nav-section {
