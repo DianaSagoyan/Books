@@ -49,8 +49,13 @@ body{
 .book-item:hover{
     cursor: pointer;
     transform: translate(0,-5px);
+    
     /* box-shadow: 5px 10px 18px #888888; */
     /* transform: translate(-15%); */
+}
+
+.book-item:hover .book-image{
+    opacity: 1;
 }
 
 .book-image:hover{
@@ -58,11 +63,20 @@ body{
     transition: ease-out;
     box-shadow: 1px 1px #8888;
     transition: transform .3s;
-    opacity: 1;
 }
 
 .book-description{
     width: 200px;
+}
+
+.book-description h3{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.2rem;
+}
+
+.book-description p {
+    font-family: 'Montserrat', sans-serif;
+    color: #3b6978;
 }
 
 /* navbar */
