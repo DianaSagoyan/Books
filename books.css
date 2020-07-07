@@ -12,6 +12,8 @@ body{
     display: flex;
 }
 
+/* book-section */
+
 .book-list{
     margin-top: 7%;
     margin-left: 5%;
@@ -22,13 +24,17 @@ body{
 }
 
 .book-item{
+    margin: 15px;
     display: flex;
     text-align: center;
-    margin: 15px;
     border: 3px solid var(--main-color);
     box-shadow: 5px 10px 18px #888888;  
     background-color: #f7f7f7;
-    /* text-align: center; */
+}
+
+.book-item:hover{
+    cursor: pointer;
+    transform: translate(0,-5px);
 }
 
 .book-item h3{
@@ -46,14 +52,6 @@ body{
     margin: 10px 0 10px 20px;
     border: 1px solid var(--main-color);
     opacity: 0.5;
-    /* display: flex; */
-}
-
-.book-item:hover{
-    cursor: pointer;
-    transform: translate(0,-5px);
-    /* box-shadow: 5px 10px 18px #888888; */
-    /* transform: translate(-15%); */
 }
 
 .book-item:hover .book-image{
@@ -65,7 +63,6 @@ body{
 }
 
 .book-image:hover{
-    /* transform: translate(30%); */
     transition: ease-out;
     box-shadow: 1px 1px #8888;
     transition: transform .3s;
@@ -88,9 +85,9 @@ body{
 /* navbar */
 
 .navbar{
+    width: 100%;
     position: fixed;
     top: 0;
-    width: 100%;
     z-index: 1;
 }
 
@@ -112,9 +109,9 @@ body{
 }
 
 .nav-links{
+    width: 30%;
     display: flex;
     justify-content: space-around;
-    width: 30%;
 }
 
 .nav-links a{
@@ -133,15 +130,36 @@ a:link{
 }
 
 .burger div{
+    margin: 5px;
     width: 25px;
     height: 5px;
     background-color: var(--color-light);
-    margin: 5px;
 }
 
 .burger{
     display: none;
 }
+
+/* footer */
+
+
+.footer{
+    height: 70px;
+    background-color: var(--background-color);
+    text-align: center;
+    color: var(--main-color);
+    align-items: center;
+}
+.icon{
+    margin: 9px 5px;
+    font-size: 1.5rem;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+/* @media */
 
 @media screen and (max-width: 750px){
     body{
@@ -149,9 +167,9 @@ a:link{
     }
 
     .nav-links{
+        height: 500px;
         position: absolute;
         right: 0px;
-        height: 500px;
         background-color: var(--main-color);
         display: flex;
         flex-direction: column;
@@ -171,20 +189,4 @@ a:link{
     }
 }
 
-.footer{
-    background-color: var(--background-color);
-    text-align: center;
-    color: var(--main-color);
-    height: 70px;
-    /* margin-top: 65%; */
-    align-items: center;
-}
-.icon{
-    font-size: 1.5rem;
-    margin: 9px 5px;
-}
-
-.icon:hover{
-    cursor: pointer;
-}
 
