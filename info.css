@@ -8,6 +8,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: #eeecda;
+}
+
 
 /* navbar */
 
@@ -94,3 +98,32 @@ a:link{
         cursor: pointer;
     }
 }
+
+/* forms */
+
+.form-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-form{
+    display: flex;
+}
+
+.form-divider {
+    width: 3px;
+    margin: 20px 80px;
+    background-color: #5d4954;
+  }
+
+  .input-label input,
+  .input-label textarea {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .book-pick{
+     display: flex; 
+     flex-direction: column;
+  }
