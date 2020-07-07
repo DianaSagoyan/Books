@@ -277,3 +277,24 @@ a:link{
     left: 80%;
     transform: rotate(35deg);
 }
+
+@media screen and (max-width: 1192px){
+    .form-wrapper{
+        flex-direction: column;
+    }
+
+    .info-form{
+        width: 70%;
+      }
+
+      .form-divider{
+        display: none;
+      }
+
+      .book-pick{
+          margin-left: 80px;
+          width: 70%;
+          margin-top: 0;
+      }
+    
+}
