@@ -322,4 +322,11 @@ a:link{
     .intro-paragraph{
         margin-top: 20%;
     }
+
+    .about-author{
+        flex-wrap: nowrap;
+        height: 450px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 }
